@@ -1,0 +1,47 @@
+\documentclass[12pt, letterpaper]{article}
+
+\begin{document}
+
+\section*{Finding and understanding adversarial attacks against machine-learning
+          methods in astrophysics}
+
+\noindent
+Villar, Hogg, others
+
+\paragraph{abstract:}
+% Context
+In classification contexts, most machine-learning methods are
+susceptible to adversarial attacks, in which obviously small or
+uninformative changes to input data can be found that lead to substantial
+changes in the output classifications of those data.
+The great successes of these kinds of attacks undermines the idea that
+these methods---which are becoming more prevalent---are valid for use
+in scientific projects
+% Aims
+In this contribution, we compare different general classes of
+machine-learning methods in terms of their susceptibility to
+adversarial attacks.
+% Methods
+We generalize the concept of an adversarial attack to the context of
+regressions, which is the context of most machine-learning
+applications in astrophysics.
+We search for attacks against some popular classes of models in
+astronomy, using examples from stellar spectroscopy for demonstration
+purposes (although we expect the results to be general).
+% Results
+We find, as expected, that the standard practices of regression with a
+flexible machine-learning method (such as deep learning), even with
+good training data, are generally susceptible to impressive
+adversarial attacks.
+We find that methods in which the machine-learning method is used to
+make a generative model for the data (from a latent space or label
+space) are far less susceptible to such attacks, probably because they
+conform more closely to our physical knowledge.
+Even methods that are susceptible to attacks can be made less
+susceptible by modifications to the model structure or to the training
+regime.
+% Conclusion
+We comment on the relationships between adversarial attacks,
+generalizability, interpretability, and causal structure.
+
+\end{document}
